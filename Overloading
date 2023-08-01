@@ -1,0 +1,25 @@
+public class Overloading {
+	
+	//over loading achive with in the class
+	// a class have a mutliple method with same method name and diffrent
+	// parameters it known as overloading
+	
+
+	int add(int a, int b) {   //method name add this method have 2 parameters
+		int c = a + b;
+		System.out.println(c);
+		return c;
+	}
+
+	int add(int a, int b,int c) {  //method name add but this method have 3 parameter
+		int d = a + b ;
+		System.out.println(d);
+		return d;
+	}
+
+	public static void main(String[] args) {
+		Overloading a = new Overloading();
+		a.add(5, 5);
+		a.add(5, 5, 5);
+	}
+}
