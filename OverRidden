@@ -1,0 +1,25 @@
+class a { // parent class
+	void m() { // methid name m
+		System.out.println("anto");
+	}
+}
+
+class b extends a { // child class extends parent class
+	void m() { // child class have a same mehod name as parent classs
+		System.out.println("anto a");
+	}
+}
+
+public class OverRidden {
+
+	// over ridden deals with class level
+	// if we achive over ridden then the parent class and child class
+	// must have a same method name and same parameters
+	// if both have a same method name and parameters in that place overridden
+	// will happen
+
+	public static void main(String[] args) {
+		b c = new b();
+		c.m();
+	}
+}
