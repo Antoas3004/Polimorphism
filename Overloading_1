@@ -1,0 +1,26 @@
+     // chenge in data type
+public class Overloading_1 {
+
+	// if we change same method name and diffrent data type
+	// we achive method overloading
+
+	int add(int a, int b) {
+
+		int c = a + b;
+		System.out.println(c);
+		return c;
+	}
+
+	double add(double a, double b) {
+		double c = a + b;
+		System.out.println(c);
+		return c;
+
+	}
+
+	public static void main(String[] args) {
+		Overloading_1 x = new Overloading_1();
+		x.add(11.1, 20.2);
+		x.add(7, 70);
+	}
+}
